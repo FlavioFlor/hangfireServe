@@ -1,8 +1,6 @@
 ﻿using Autofac;
 using Hangfire;
-using Microsoft.Owin.Hosting;
 using System;
-using Topshelf;
 
 namespace hangfireServe
 {
@@ -17,7 +15,7 @@ namespace hangfireServe
         {
 
             //Configure database
-            GlobalConfiguration.Configuration.UseSqlServerStorage(@"Data Source=localhost; User ID=SA;Password=Fl@vioFlor;");
+            GlobalConfiguration.Configuration.UseSqlServerStorage(@"Data Source=(LocalDB)\MSSQLLocalDB;Integrated Security=True");
             //Configure Dependency Injection solver 
             GlobalConfiguration.Configuration.UseAutofacActivator(BuildContainer());
             //Start a new instance of the BackgroundServer

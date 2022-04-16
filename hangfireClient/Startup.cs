@@ -1,19 +1,11 @@
 using Hangfire;
-using Autofac;
+using hangfireServe;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using hangfireServe;
-using Hangfire.MemoryStorage;
 
 namespace hangfireClient
 {
@@ -29,7 +21,7 @@ namespace hangfireClient
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddHangfire(x => x.UseSqlServerStorage(@"Data Source=localhost; User ID=SA;Password=Fl@vioFlor;"));
+            services.AddHangfire(x => x.UseSqlServerStorage(@"Data Source=(LocalDB)\MSSQLLocalDB;Integrated Security=True"));
             services.AddControllers();
         }
 

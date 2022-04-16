@@ -15,7 +15,7 @@
       "launchUrl": "hangfire",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }''
+      }
     },
     "hangfireClient": {
       "commandName": "Project",
