@@ -48,7 +48,7 @@ namespace hangfireClient
 
             app.UseHangfireDashboard();
 
-            job();
+            Job();
 
             app.UseAuthorization();
 
@@ -58,7 +58,7 @@ namespace hangfireClient
             });
         }
 
-        public void job()
+        public void Job()
         {
             var jobManager = new RecurringJobManager();
             jobManager.AddOrUpdate<ISample>("XPTO", x => x.Start(), Cron.Minutely, TimeZoneInfo.Local);

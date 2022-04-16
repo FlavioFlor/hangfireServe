@@ -5554,19 +5554,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\flavi\\.nuget\\packages\\": {}
+    "C:\\Users\\flavio.maranhao\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\Git\\hangfireServe\\hangfireServe\\hangfireServe.csproj",
+      "projectUniqueName": "C:\\Users\\flavio.maranhao\\Documents\\Nova pasta\\hangfireServe\\hangfireServe\\hangfireServe.csproj",
       "projectName": "hangfireServe",
-      "projectPath": "D:\\Projetos\\Git\\hangfireServe\\hangfireServe\\hangfireServe.csproj",
-      "packagesPath": "C:\\Users\\flavi\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\Git\\hangfireServe\\hangfireServe\\obj\\",
+      "projectPath": "C:\\Users\\flavio.maranhao\\Documents\\Nova pasta\\hangfireServe\\hangfireServe\\hangfireServe.csproj",
+      "packagesPath": "C:\\Users\\flavio.maranhao\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\flavio.maranhao\\Documents\\Nova pasta\\hangfireServe\\hangfireServe\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\flavio.maranhao\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5628,15 +5628,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.21, 3.1.21]"
+          }
+        ],
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   },

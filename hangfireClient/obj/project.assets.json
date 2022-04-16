@@ -1563,10 +1563,7 @@
         },
         "runtime": {
           "bin/placeholder/hangfireServe.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       }
     }
   },
@@ -5578,19 +5575,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\flavi\\.nuget\\packages\\": {}
+    "C:\\Users\\flavio.maranhao\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\Git\\hangfireServe\\hangfireClient\\hangfireClient.csproj",
+      "projectUniqueName": "C:\\Users\\flavio.maranhao\\Documents\\Nova pasta\\hangfireServe\\hangfireClient\\hangfireClient.csproj",
       "projectName": "hangfireClient",
-      "projectPath": "D:\\Projetos\\Git\\hangfireServe\\hangfireClient\\hangfireClient.csproj",
-      "packagesPath": "C:\\Users\\flavi\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\Git\\hangfireServe\\hangfireClient\\obj\\",
+      "projectPath": "C:\\Users\\flavio.maranhao\\Documents\\Nova pasta\\hangfireServe\\hangfireClient\\hangfireClient.csproj",
+      "packagesPath": "C:\\Users\\flavio.maranhao\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\flavio.maranhao\\Documents\\Nova pasta\\hangfireServe\\hangfireClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\flavio.maranhao\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5605,8 +5602,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Projetos\\Git\\hangfireServe\\hangfireServe\\hangfireServe.csproj": {
-              "projectPath": "D:\\Projetos\\Git\\hangfireServe\\hangfireServe\\hangfireServe.csproj"
+            "C:\\Users\\flavio.maranhao\\Documents\\Nova pasta\\hangfireServe\\hangfireServe\\hangfireServe.csproj": {
+              "projectPath": "C:\\Users\\flavio.maranhao\\Documents\\Nova pasta\\hangfireServe\\hangfireServe\\hangfireServe.csproj"
             }
           }
         }
@@ -5644,6 +5641,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.21, 3.1.21]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -5652,7 +5655,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   },

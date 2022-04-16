@@ -21,12 +21,10 @@ namespace hangfireServe
             //Configure Dependency Injection solver 
             GlobalConfiguration.Configuration.UseAutofacActivator(BuildContainer());
             //Start a new instance of the BackgroundServer
-            using (var server = new BackgroundJobServer())
-            {
-                Console.WriteLine("Server Started");
-                Console.WriteLine("Press Any  key to exit");
-                Console.ReadLine();
-            }
+            using var server = new BackgroundJobServer();
+            Console.WriteLine("Server Started");
+            Console.WriteLine("Press Any  key to exit");
+            Console.ReadLine();
 
         }
 
